@@ -1,3 +1,6 @@
+This is more or less a curated version of bash history after installing ubuntu on a btrfs raid10
+Inspired by https://www.youtube.com/@FIXAPC video on the topic.
+
 # enable ssh
 ```
 sudo su
@@ -147,7 +150,7 @@ apt install linux-image-generic
 ```
 
 
-# i somehow ended up in grub cli. To boot i entered
+# i ended up in grub cli. To boot i entered
 Get uuid of root partition from fstab file
 ```
 cat (hd0,msdos2)/@/etc/fstab
