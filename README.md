@@ -6,7 +6,9 @@ Inspired by https://www.youtube.com/@FIXAPC video on the topic.
 sudo su
 passwd
 vim /etc/ssh/sshd_config
-remove # from listening flags and set allow root login to yes 
+```
+uncomment listening flags and set PermitRootLogin yes
+```
 systemctl restart ssh
 ```
 
